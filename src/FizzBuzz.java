@@ -4,8 +4,8 @@
 class FizzBuzz {
 
     public static void main() {
-        int i = 0;
-        while (i < 101) {
+        int i = 1;
+        while (i < 100) {
             i = doFizzBuzz(i);
         }
     }
